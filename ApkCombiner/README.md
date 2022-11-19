@@ -7,8 +7,8 @@ Usage:
 # Please make sure that appt command is available in your enivronment.
 export PATH=$PATH:$ANDROID_SDK/build-tools/android-4.4
 
-# Launch ApkCombiner
-./runApkCombiner.sh $ANDROID_PLATFORM_PATH app1.apk app2.apk ...
+# Launch ApkCombiner(Run the following command on terminal on release folder, before run copy the app1.apk and app2.apk etc.)
+./runApkCombiner.sh $ANDROID_PLATFORM_PATH ./app1.apk ./app2.apk ...
 ```
 
 After the execution, there should be an apk named app1-ac-app2.apk in the current directory.
